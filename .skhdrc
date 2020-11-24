@@ -78,4 +78,4 @@ ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 
 
 # Open Terminal
-cmd - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
+cmd + shift - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
