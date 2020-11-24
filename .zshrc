@@ -102,3 +102,7 @@ source $ZSH/oh-my-zsh.sh
 if type nvim > /dev/null 2>&1; then
   alias vim='nvim'
 fi
+
+# kitty icat for opening images in terminal emulator
+alias icat="kitty +kitten icat"
+
