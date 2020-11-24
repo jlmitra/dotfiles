@@ -66,16 +66,16 @@
 #                                   an EOL character signifies the end of the bind.
 
 # prevent skhd from monitoring events for specific applications.
-#
-# .blacklist [
-#    "kitty"
-#    "terminal"
-#    "qutebrowser"
-# ]
+
+.blacklist [
+   "kitty"
+   "terminal"
+]
 
 # Retart yabai launch agent
 ctrl + alt + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 
 
 # Open Terminal
-cmd + shift - return : /Applications/iTerm.app/Contents/MacOS/iTerm2
+cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+
