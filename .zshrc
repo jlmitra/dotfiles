@@ -106,3 +106,7 @@ fi
 # kitty icat for opening images in terminal emulator
 alias icat="kitty +kitten icat"
 
+### Git aliases ###
+alias gpo="git push origin"
+alias ga="git add"
+alias gc="git commit -m"
