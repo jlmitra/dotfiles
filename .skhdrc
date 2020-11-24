@@ -79,3 +79,5 @@ ctrl + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 # Open Terminal
 cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
 
+# Open Safari
+cmd + shift - return : /Applications/Safari.app/Contents/MacOS/Safari
