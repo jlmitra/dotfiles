@@ -21,6 +21,10 @@ yabai -m rule --add app="Messenger" space=comms
 yabai -m rule --add app="Slack" space=comms
 yabai -m rule --add app="Mail" space=comms
 
+## Cal space ##
+yabai -m space 2 --label cal
+yabai -m rule --add app="Calendar" space=cal
+
 # Override default layout for space 2 only
 # yabai -m config --space 2 layout float
 
