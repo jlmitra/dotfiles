@@ -19,6 +19,7 @@ yabai -m config layout bsp
 yabai -m space 1 --label comms
 yabai -m rule --add app="Messenger" space=comms
 yabai -m rule --add app="Slack" space=comms
+yabai -m rule --add app="Mail" space=comms
 
 # Override default layout for space 2 only
 # yabai -m config --space 2 layout float
