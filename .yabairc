@@ -20,6 +20,7 @@ yabai -m space 1 --label comms
 yabai -m rule --add app="Messenger" space=comms
 yabai -m rule --add app="Slack" space=comms
 yabai -m rule --add app="Mail" space=comms
+yabai -m rule --add app="Messages" space=comms
 
 ## Cal space ##
 yabai -m space 2 --label cal
