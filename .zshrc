@@ -106,9 +106,10 @@ fi
 # kitty icat for opening images in terminal emulator
 alias icat="kitty +kitten icat"
 
-alias yr="launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
+alias yr="launchctl kickstart -k 'gui/${UID}/homebrew.mxcl.yabai'"
 
 ## Git aliases ##
 alias gpo="git push origin"
 alias ga="git add"
 alias gc="git commit -m"
+
