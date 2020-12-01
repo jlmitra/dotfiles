@@ -1,0 +1,5 @@
+### Stealth Machine Co zsh development aliases ###
+
+SERVER_IP=192.168.1.101
+
+alias svm="ssh dev@${SERVER_IP}"

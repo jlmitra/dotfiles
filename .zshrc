@@ -72,6 +72,13 @@ plugins=(git colorize safe-paste sudo alias-finder)
 
 source $ZSH/oh-my-zsh.sh
 
+# load specific stealth machine co development aliases
+if [ -f ~/.zsh_alias_smc ]; then
+    source ~/.zsh_alias_smc
+else
+    print "404: ~/.zsh_alias_smc not found."
+fi
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
