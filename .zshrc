@@ -106,6 +106,9 @@ fi
 # kitty icat for opening images in terminal emulator
 alias icat="kitty +kitten icat"
 
+# kitty ssh to copy over terminfo to remote
+alias ssh="kitty +kitten ssh"
+
 # restart yabai (use when changing .yabairc)
 alias yr="launchctl kickstart -k 'gui/${UID}/homebrew.mxcl.yabai'"
 
