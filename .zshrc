@@ -106,6 +106,7 @@ fi
 # kitty icat for opening images in terminal emulator
 alias icat="kitty +kitten icat"
 
+# restart yabai (use when changing .yabairc)
 alias yr="launchctl kickstart -k 'gui/${UID}/homebrew.mxcl.yabai'"
 
 ## Git aliases ##
