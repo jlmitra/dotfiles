@@ -124,3 +124,5 @@ alias gpo="git push origin"
 alias ga="git add"
 alias gc="git commit -m"
 
+# startx
+alias x="startx; exit"
