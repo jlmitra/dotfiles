@@ -125,11 +125,12 @@ alias gc="git commit -m"
 alias x="startx; exit"
 
 # lazygit life's good
-alias lg="lazygit"
+#alias lg="lazygit"
+
+unalias lg
 
 # lazygit change directory on exit
-lg()
-{
+lg() {
 	export LAZYGIT_NEW_DIR_FILE=~/.lazygit/newdir
 
 	lazygit "$@"
