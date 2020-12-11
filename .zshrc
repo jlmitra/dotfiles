@@ -127,7 +127,7 @@ alias x="startx; exit"
 # lazygit life's good
 #alias lg="lazygit"
 
-unalias lg
+#unalias lg
 
 # lazygit change directory on exit
 lg() {
