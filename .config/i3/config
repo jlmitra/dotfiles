@@ -21,7 +21,7 @@ font pango:monospace 8
 
 # Start autotiling script
 # github.com/nwg-piotr/autotiling
-exec_always --no-startup-id autotiling
+exec_always --no-startup-id $HOME/.local/bin/autotiling
 
 # Start compton for standalone compositing (transparency, eye candy, etc)
 exec --no-startup-id compton -b -f
