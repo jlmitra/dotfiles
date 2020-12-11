@@ -116,9 +116,6 @@ alias icat="kitty +kitten icat"
 # kitty ssh to copy over terminfo to remote
 alias ssh="kitty +kitten ssh"
 
-# restart yabai (use when changing .yabairc)
-alias yr="launchctl kickstart -k 'gui/${UID}/homebrew.mxcl.yabai'"
-
 ## Git aliases ##
 alias gpo="git push origin"
 alias ga="git add"
