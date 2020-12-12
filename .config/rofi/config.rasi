@@ -71,6 +71,8 @@ configuration {
     border-radius: 3;
     border-color: @default-border;
     padding: 7;
+    width: 25%;
+    height: 33%;
 }
 
 #mainbox {
