@@ -32,6 +32,9 @@ font pango:monospace 8
 # github.com/nwg-piotr/autotiling
 exec_always --no-startup-id $HOME/.local/bin/autotiling
 
+# Autochange wallpaper
+exec_always --no-startup-id $HOME/.local/bin/rbg
+
 # Start compton for standalone compositing (transparency, eye candy, etc)
 exec --no-startup-id compton -b -f
 
