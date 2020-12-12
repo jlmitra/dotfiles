@@ -9,6 +9,8 @@ configuration {
     drun-match-fields: "name,generic,exec,categories";
     levenshtein-sort: true;
     matching: "fuzzy";
+    hide-scrollbar: true;
+    fullscreen: false;
     /* Keyboard commands & navigation */
     kb-remove-word-back: "Control+BackSpace";
     kb-accept-entry: "Return,KP_Enter";
