@@ -16,10 +16,10 @@ configuration {
     kb-accept-entry: "Return,KP_Enter";
     kb-mode-next: "Control+Right,Alt+Tab";
     kb-mode-previous: "Control+Left";
-    kb-row-left: "h";
-    kb-row-right: "l";
-    kb-row-up: "Up,k";
-    kb-row-down: "Down,j";
+    kb-row-left: "";
+    kb-row-right: "";
+    kb-row-up: "Up";
+    kb-row-down: "Down";
     kb-select-1: "";
     kb-select-2: "";
     kb-select-3: "";
