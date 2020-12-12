@@ -63,7 +63,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+w kill
 
 # rofi launcher
-bindsym $mod+space exec --no-startup-id "rofi -modi drun,run -show drun -theme dmenu -icon-theme \\"Papirus\\" -show-icons"
+bindsym $mod+space exec --no-startup-id "rofi -modi drun,run -show drun -theme dmenu -icon-theme \\"Papirus\\" -show-icons -font \\"MesloLGS NF 12\\""
 
 # change focus
 bindsym $mod+h focus left
