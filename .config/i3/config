@@ -66,6 +66,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec kitty
 
+# open chromium
+bindsym $mod+backslash exec chromium
+
 # kill focused window
 bindsym $mod+w kill
 
