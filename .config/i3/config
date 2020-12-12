@@ -32,6 +32,9 @@ font pango:monospace 8
 # github.com/nwg-piotr/autotiling
 exec_always --no-startup-id $HOME/.local/bin/autotiling
 
+# Workspace renaming script
+exec_always --no-startup-id $HOME/.local/bin/autoname_workspaces
+
 # Autochange wallpaper
 # moving this to .xinitrc
 #exec_always --no-startup-id $HOME/.local/bin/rbg
