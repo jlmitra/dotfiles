@@ -37,18 +37,18 @@
 
 # Default directory to save the downloaded torrents.
 #
-directory.default.set = $HOME/Downloads
+directory.default.set = /home/jl/Downloads
 
 # Default session directory. Make sure you don't run multiple instance
 # of rTorrent using the same session directory. Perhaps using a
 # relative path?
 #
-session.path.set = $HOME/.session
+session.path.set = /home/jl/.session
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
 #
-schedule2 = watch_directory,5,5,load.start=$HOME/Downloads/*.torrent
+schedule2 = watch_directory,5,5,load.start=/home/jl/Downloads/*.torrent
 
 # Close torrents when disk-space is low.
 #
