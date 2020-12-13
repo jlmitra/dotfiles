@@ -36,8 +36,7 @@ exec_always --no-startup-id $HOME/.local/bin/autotiling
 exec_always --no-startup-id $HOME/.local/bin/autoname_workspaces
 
 # Autochange wallpaper
-# moving this to .xinitrc
-#exec_always --no-startup-id $HOME/.local/bin/rbg
+exec_always --no-startup-id $HOME/.local/bin/rbg
 
 # Start compton for standalone compositing (transparency, eye candy, etc)
 exec --no-startup-id compton -b -f
