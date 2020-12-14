@@ -149,6 +149,3 @@ alt - 5 : yabai -m space --focus 5
 
 # Open Terminal
 cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
-
-# Open Safari
-cmd + shift - return : /Applications/Safari.app/Contents/MacOS/Safari
