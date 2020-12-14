@@ -78,22 +78,22 @@ ctrl + shift + cmd - r : launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 ### WM Actions ###
 
 # focus window
-alt - j : yabai -m window --focus west
+alt - h : yabai -m window --focus west
 alt - l : yabai -m window --focus east
-alt - i : yabai -m window --focus north
-alt - k : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - j : yabai -m window --focus south
 
 # swap managed window
-shift + alt - j : yabai -m window --swap west
+shift + alt - h : yabai -m window --swap west
 shift + alt - l : yabai -m window --swap east
-shift + alt - i : yabai -m window --swap north
-shift + alt - k : yabai -m window --swap south
+shift + alt - k : yabai -m window --swap north
+shift + alt - j : yabai -m window --swap south
 
 # move managed window
-shift + cmd - j : yabai -m window --warp west
+shift + cmd - h : yabai -m window --warp west
 shift + cmd - l : yabai -m window --warp east
-shift + cmd - i : yabai -m window --warp north
-shift + cmd - k : yabai -m window --warp south
+shift + cmd - k : yabai -m window --warp north
+shift + cmd - j : yabai -m window --warp south
 
 # balance size of windows
 shift + alt - 0 : yabai -m space --balance
